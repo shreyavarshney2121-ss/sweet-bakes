@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Order Now - Sweet Bakes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="order-section" class="order-section">
+  <h2>Choose Your Cake</h2>
+  <div class="cake-list">
+    <div class="cake-item">
+      <img src="cake1.jpg" alt="Chocolate Cake">
+      <h4>Chocolate Cake</h4>
+      <p>₹450</p>
+    </div>
+    <div class="cake-item">
+      <img src="cake2.jpg" alt="Red Velvet">
+      <h4>Red Velvet</h4>
+      <p>₹550</p>
+    </div>
+    <div class="cake-item">
+      <img src="cake3.jpg" alt="Strawberry Cake">
+      <h4>Strawberry Cake</h4>
+      <p>₹500</p>
+    </div>
+  </div>
+<form class="order-form">
+  <h3>Order Form</h3>
+
+  <label for="cake">Select Cake:</label>
+  <select id="cake" name="cake">
+    <option>Chocolate Cake</option>
+    <option>Red Velvet</option>
+    <option>Strawberry Cake</option>
+  </select>
+
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5" required>
+
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="3" required></textarea>
+
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" required>
+
+  <label for="payment">Payment Mode:</label>
+  <select name="payment" id="payment" required>
+  <option value="COD">Cash On Delivery</option>
+  <option value="UPI">UPI</option>
+  <option value="Card">Debit/credit</option>
+  </select>
+
+  <button type="submit">Place Order</button>
+</form>
+

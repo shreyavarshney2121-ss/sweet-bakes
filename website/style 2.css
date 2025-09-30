@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(#ffe6f0, #ffccdd);
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffe6ec;
+  border-bottom: 2px dashed #c77b8b;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #a63c63;
+  font-family: 'Georgia', serif;
+  text shadow: 2px 2px 10px rgba(0,0,0,0.8);
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero {
+  animation: fadIn 2s ease-in-out;
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('matki-2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text shadow: 2px 2px 10px rgba(0,0,0,0.8);
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  background-color: #d6336c;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ad1457;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff0f5;
+  opacity:0.6;
+  font-size:20px;
+  box-shadow: 0-2px 5px rgba(0,0,0,0.1);
+}

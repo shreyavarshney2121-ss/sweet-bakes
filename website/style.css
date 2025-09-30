@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'dancing script',cursive;
+  background-color:#fff0f5;
+  text-align: center;
+}
+.table-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  min-height: 80vh;
+  text-align: center;
+}
+.table-section h2 {
+  font-size: 28px;
+  color: #d63384;
+  text-align: center; 
+  margin-bottom:20px;
+}
+table {
+  	border-collapse: collapse;
+  	width: 60%;
+  	background-color:#fff;
+  	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	text-align: center;
+}
+th, td {
+  	padding: 12px 20px;
+ 	border: 1px solid #ddd;	
+	font-size: 18px;
+	font-family: 'dancing script',cursive;
+	text-align: center;
+}
+
+th {
+  	background-color:#f8c8dc;
+  	color:black;
+	font-family: 'dancing script',cursive;
+	text-align: center;
+}
+.tagline {
+  text-align:center;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  color: #d63384;
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+.menu-heading{
+  text-align:center;
+  font-size:36px;
+  color:black;
+  font-family: 'Georgia', serif;
+  letter-spacing:2px;
+  margin-bottom:20px;
+  border-bottom:3px solid #f8c8dc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.navbar {
+  background-color: #f8c8dc;
+  padding: 0;
+  margin: 0;
+}
+.navbar ul {
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;
+  	justify-content: center;
+}
+.navbar li {
+  	margin: 0;
+}
+.navbar li a {
+  	display:block;
+  	color: white;
+  	text-decoration: none;   
+  	padding: 14px 20px;
+  	font-weight: bold;
+  	font-size: 30px;
+}
+.navbar li a:hover{
+  	background-color:#f497b5; 
+}
+
+nav{
+	background-color:#e6005c;
+	padding:10px;
+	margin:0px;
+  	text-align:center;
+	text-color:white;
+	font-size:40px;
+}
+footer{
+  	background-color:powderblue;
+  	font weigth:bold;
+  	color:black;
+  	padding:0;
+  	text-align:center;
+	font-style:italic;
+	font-size:30px;
+}
+h1{
+	font-size:300%;
+	font-family: 'dancing script',cursive;
+	margin:0;
+	padding:0;
+}
+.menu-img{
+  border-radius:15px;   
+  margin: 15px;            
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+.menu-img:hover {
+  transform: scale(1.05);
+}
+.gallery {
+  text-align: center;
+}
+header{
+	padding:10px;
+	text-align:center;
+}
+p{
+	font-size:25px;
+	font-family:'Segoe UI', sans-serif;
+	font-style:italic;
+	margin:0;
+	padding:0;
+}
+h2{
+	font-size:30px;
+	font-family:'Segoe UI', sans-serif;
+	font-style:italic;
+}
+h3{
+	font-size:25px;
+	font-family:'Segoe UI', sans-serif;
+	font-style:italic;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+.header {
+  text-align: center;
+  padding-top:20px;
+}
+.logo {
+  height:90px;
+}
+
+.brand {
+  color: #f285ac;
+  font-size: 28px;
+  margin: 0;
+}
+
+.tagline {
+  color: #c2185b;
+  font-size:25px;
+  margin-top:5px;
+}
+.about-banner {
+  background-color: #f8cdd3;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.about-banner h2 {
+  font-family:'dancing script',cursive;
+  font-size:32px;
+  margin:0;
+}
+
+.about-content {
+  	display: flex;
+  	justify-content:left;
+  	align-items: flex-start;
+ 	padding: 40px 60px;
+  	gap: 40px;
+}
+.about-content.text {
+  	flex:1;
+}
+.about-content h3 {
+  	font-family: 'dancing script',cursive;
+  	font-size:18px;
+  	color: #333;
+}
+.about-content p{
+	font-family:'dancing script',cursive;
+  	color: #555;
+  	font-size:20px;
+  	line-height:1.6;
+}
+.order-heading {
+  font-size: 42px;
+  color: #d63384;
+  text-align: center;
+  font-family: 'Segoe UI', cursive;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+.order-btn {
+  background-color: #ff69b4;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size:30px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #ff1493;
+
+}
+.order-section {
+  background-color: #fff0f5;
+  padding: 40px;
+  text-align: center;
+}
+
+.cake-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.cake-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cake-item img {
+  width: 100%;
+  border-radius: 8px;
+  height: 150px;
+  object-fit: cover;
+}
+.cake-item h4 {
+  margin: 10px 0 5px;
+  font-size:30px;
+}
+
+.cake-item p {
+  color: #ff1493;
+  font-weight: bold;
+}
+.order-form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.order-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.order-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.order-form input, .order-form textarea, .order-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background-color:#ff69b4;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-form button:hover {
+  background-color:#ff1493;
+}

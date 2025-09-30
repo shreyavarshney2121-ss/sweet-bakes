@@ -1,0 +1,32 @@
+create table batch_WD(
+class float,
+roll_no int,
+name varchar(50),
+subject varchar(20),
+marks float,
+grade varchar(20))
+
+select * from batch_WD
+
+insert into batch_WD values
+(2,1,'Anavi','English',99,'A1'),
+(2,2,'Bhavesh','Hindi',45,'B1'),
+(2,3,'Chaitanya','Science',90.2,'A1'),
+(2,4,'Dhurv','English',99,'A1')
+
+create table globalsuperstore_data(
+country varchar(50),
+city varchar(50),
+order_date date,
+shipping_date date,
+sales float,
+quanity float)
+
+select * from globalsuperstore_data
+
+insert into globalsuperstore_data values
+('United states','New York','5-6-22','30-6-22',2309.9,7),
+('Australia','Wollongo','23-5-23','4-6-23',2354.78,10),
+('Germany','Berlin','30-3-22','4-4-22',4567,6),
+('Bazil','Toledo','12-3-22','18-3-22',2345.3,8),
+('Australia','Sydeny','14-8-22','22-8-22',1456.56,10)
